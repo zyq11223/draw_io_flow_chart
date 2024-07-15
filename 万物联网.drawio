@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T06:53:47.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="UcfPuxFqzPXfneZrnqqj" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T07:16:38.849Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="5uqJ6IcTkiiHnKO0M6M0" version="24.6.4" type="github">
   <diagram name="第 1 页" id="_oiRRrDQXpKoZCZsNfWV">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-1" value="&lt;font style=&quot;font-size: 76px;&quot;&gt;Star Link&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="97" y="60" width="730" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-2" value="设备2" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.wave2;dy=0.3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="525" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-4" value="设备1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.wave2;dy=0.3;" vertex="1" parent="1">
+          <mxGeometry x="150" y="590" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-5" value="设备3" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_round_rect;dx=6;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-6" value="设备4" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_round_rect;dx=6;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="470" y="530" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-7" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.sun" vertex="1" parent="1">
+          <mxGeometry y="10" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-8" value="Spring 服务控制端" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="660" y="450" width="210" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="510" as="sourcePoint" />
+            <mxPoint x="230" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="520" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="520" as="sourcePoint" />
+            <mxPoint x="530" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="340" as="sourcePoint" />
+            <mxPoint x="750" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-14" value="目前地面其实有很多的设备，各种硬件，各种机械设备等等，都有其MS 系统，不过这些MS 系统有的在设备端，有的在服务端；造成这种情况的主要原因：&lt;div&gt;1. 科技的发展与设备的发展&lt;br&gt;2. 外部环境&lt;br&gt;3. 成本因素&lt;br&gt;4. 认知结构&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="825" width="850" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-15" value="比如说目前的设备端的控制为什么不能在远程服务器上进行？&lt;div&gt;1. 很大程度受限于网络，以及历史的惯性思维&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="64" y="930" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-16" value="如何解决设备端MS系统上网的问题？&lt;br&gt;1. 网络需要得到保证，其稳定性需要保证设备在线&lt;br&gt;2. 至于其他依赖于稳定的网络就可以实现了，如设备端的MS系统迁移上网，基于spring 框架技术和心跳保持通信，同时上传数据和基于心跳传输的数据进行指令的下发；&lt;br&gt;这样就可以释放边缘端设备上的MS控制系统，降低边缘端设备的成本，由服务器端统一进行管控，设备端需要做的就变成了采集数据、命令执行，通信保持、位置服务；&lt;br&gt;&lt;br&gt;基于互联网(LOT)网络颠覆了传统控制端的技术；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="970" width="920" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZF7Rlkpuk4chotVmWOWa-17" value="所以网络不再是一个区域、一个国家的基建设施，而是整个地球的基建设施，我相信星链看到的不仅仅是这么一点，它应该看到了更多的未来；&lt;br&gt;万物联网是终局，整个过程会影响很多的行业，会改变很多行业使用的技术&lt;br&gt;万物联网必将到来，我们需要也必须有自己的星链；就如同我们有自己的WLAN 网络" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1065" width="780" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
